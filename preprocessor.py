@@ -3,8 +3,8 @@ from pandas import ExcelWriter
 from pandas import DataFrame
 
 
-existing=pd.read_excel('/home/srimoyee/Desktop/Srimoyee-PROJECT_REPORT/stage1/TakenMind-Python-Analytics-Problem-case-study-1-1.xlsx', sheet_name='Existing employees')
-left= pd.read_excel('/home/srimoyee/Desktop/Srimoyee-PROJECT_REPORT/stage1/TakenMind-Python-Analytics-Problem-case-study-1-1.xlsx', sheet_name='Employees who have left')
+existing=pd.read_excel('/home/srimoyee/Desktop/Srimoyee-PROJECT_REPORT/stage1/Raw-Data.xlsx', sheet_name='Existing employees')
+left= pd.read_excel('/home/srimoyee/Desktop/Srimoyee-PROJECT_REPORT/stage1/Raw-Data.xlsx', sheet_name='Employees who have left')
 
 existing['left']=0
 
